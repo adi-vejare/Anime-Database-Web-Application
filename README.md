@@ -2,4 +2,4 @@
 
 -Aditi Vejare
 
-[Next](http://example.net/)
+[Next](https://github.com/adi-vejare/Anime-Database-Web-Application/blob/master/Scope_statement.pdf)
