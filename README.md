@@ -2,8 +2,9 @@
 
 ##Secure Web Programming Project
 
-###Scope Statement
 -Aditi Vejare
+
+###Synopsis
 
   The project is an Internet Database for Anime. The database stores information on various anime and
 the web application displays them. Anyone can read this information and can sign up to be registered
@@ -17,4 +18,6 @@ The application prevents XSS and SQLi injections by using prepared statements to
 is required to access user and admin functions. User inputs are sanitized. Session handling is done such
 that session is destroyed if session lasts for more than 30 minutes of if browser or IP changes.
 
+####Code
 [Next](https://github.com/adi-vejare/Anime-Database-Web-Application/blob/master/Scope_statement.pdf)
+
