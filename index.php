@@ -1,3 +1,11 @@
+<!--
+Name:    project/index.php
+Purpose: Internet Anime Database
+Author:  Aditi Vejare adve1519@colorado.edu
+Version: 1.0
+Date:    2015/04/19
+-->
+
 <html>
 <head>
 <style>
@@ -12,11 +20,7 @@ border: 3px solid white;
 </head>
 </html>
 <?php
-//Name:    project/index.php
-//Purpose: Internet Anime Database
-//Author:  Aditi Vejare adve1519@colorado.edu
-//Version: 1.0
-//Date:    2015/04/19
+
 include_once('/var/www/html/project/project-lib.php');
 include_once('/var/www/html/project/header.php');
 connect($db);
@@ -228,7 +232,6 @@ switch($s){
                                	$A_id=htmlspecialchars($A_id);
                                 $title=htmlspecialchars($title);
 				$url=htmlspecialchars($url);
-                                //echo"<a href=index.php?s=2&A_id=$A_id> $title</a><br>";
 				echo"<tr><td><a href=index.php?s=2&A_id=$A_id>$title</a></td><td><img src=$url style=width:147px;height:208px;></td></tr>";
                         }
                 mysqli_stmt_close($stmt);
